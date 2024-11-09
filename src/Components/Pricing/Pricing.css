@@ -1,0 +1,55 @@
+.istiak_pricing{
+    @apply mt-[80px] mb-[10px]
+}
+.pricing_head{
+    @apply text-center flex justify-center items-center flex-col mb-[60px]
+}
+.pricing_head h2{
+    @apply font-rubik font-medium text-textColor text-[26px] w-[200px] lg:w-[384px] lg:text-[35px]
+}
+.pricing_head p{
+    @apply mt-[20px] font-rubik font-normal text-[#4F5665] w-full text-[12px] lg:w-[555px] text-[16px]
+    
+}
+.pricing_card{
+    @apply flex justify-between flex-wrap lg:flex-nowrap
+}
+.pricing_single_card{
+    @apply w-[330px] border-[#4F5665] border-[1px] rounded-[10px] pb-[50px] pt-[80px]
+}
+.pricing_single_card:hover{
+    @apply border-brandColor
+}
+.single_card_image{
+    @apply flex justify-center items-center flex-col
+}
+.card_title h2{
+    @apply font-rubik font-medium text-textColor text-[18px] mt-[30px]
+}
+.card_point{
+    @apply flex justify-center items-center flex-col mt-[30px]
+}
+.card_point ul li{
+    @apply flex  items-center gap-[10px] font-rubik font-normal text-[#4F5665] text-[14px] pb-[15px]
+}
+.card_point ul li span{
+    @apply text-[#2FAB73]
+}
+.card_choice{
+    @apply mt-[130px] flex justify-center items-center flex-col
+}
+.card_choice_text h2{
+    @apply font-rubik font-medium  text-textColor text-[18px] lg:text-[25px]
+}
+.choice_button{
+    @apply mt-[30px]
+}
+.choice_button a{
+    @apply py-[13px] px-[62px] border-brandColor border-[1px] rounded-[25px] text-brandColor transition duration-[.3s]
+}
+.card_choice_text h2 span{
+    @apply font-rubik font-normal text-[#4F5665]
+}
+.choice_button a:hover{
+    @apply text-white bg-brandColor
+}

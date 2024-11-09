@@ -1,0 +1,31 @@
+.istiak_counter{
+    @apply mt-[50px] lg:mt-[103px] mb-[10px]
+
+}
+.istiak_main_counter{
+    @apply w-full bg-[#fff] px-[90px] py-[36px] shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] lg:flex justify-between
+}
+.user_icon{
+    @apply w-[55px] h-[55px] rounded-full bg-[#FFECEC] text-xl text-brandColor flex justify-center items-center
+}
+.user_text{
+    @apply flex
+}
+.count_num{
+    @apply text-[#0B132A] text-[25px] font-rubik font-bold
+}
+.user_text h2{
+    @apply text-[25px] text-[#0B132A] font-rubik font-bold
+}
+.count_chart{
+    @apply flex flex-col
+}
+.count_chart p{
+    @apply text-[20px] font-rubik font-normal text-[#4F5665]
+}
+.one_count{
+    @apply flex gap-[36px] items-center
+}
+.count_line{
+    @apply w-[2px] h-[125px] bg-[#EEEFF2] ml-[90px] hidden lg:block
+}

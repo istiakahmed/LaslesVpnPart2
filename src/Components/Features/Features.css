@@ -1,0 +1,21 @@
+.istiak_features{
+    @apply mt-[54px] mb-[131px]
+}
+.features{
+    @apply flex justify-between items-center gap-[169px] flex-wrap lg:flex-nowrap
+}
+.features_text h1{
+    @apply w-full mb-[20px] md:w-[384px] font-rubik font-medium text-[26px] md:text-[35px] text-textColor
+}
+.features_text p{
+    @apply w-full lg:w-[428px] font-rubik font-normal text-[#4F5665] text-[16px] mb-[20px]
+}
+.features_points{
+    @apply flex justify-start items-center
+}
+.features_points ul li{
+    @apply flex  items-center gap-[10px] font-rubik font-normal text-[#4F5665] text-[14px] pb-[15px]
+}
+.features_points ul li span{
+    @apply text-[#2FAB73] rounded-full
+}

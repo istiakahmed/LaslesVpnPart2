@@ -1,0 +1,19 @@
+.istiak_banner{
+    @apply pt-[40px]  lg:pt-[100px] 
+}
+.banner_row{
+    @apply flex justify-between flex-wrap md:flex-nowrap flex-col-reverse md:flex-row
+}
+.banner_text h1{
+    @apply text-[30px] font-medium md:text-[50px] w-full lg:w-[555px]
+}
+.banner_text h1 span{
+    @apply font-bold
+}
+.banner_text p{
+    @apply text-[16px] w-full mt-5 mb-5 lg:mb-[50px] mt-[15px] lg:w-[555px] font-normal font-rubik
+}
+.banner_text a{
+    @apply py-[17px] px-[77px] shadow-[1px_24px_30px_-15px_#F53838] rounded-[10px] bg-[#F53838] text-white font-rubik font-bold
+
+}
