@@ -1,0 +1,40 @@
+.client_title{
+    @apply w-[100px] lg:w-[360px] border-[#DDDDDD] border-[1px] p-[30px]
+
+}
+.client_title:hover{
+    @apply border-brandColor
+}
+.client_head{
+    @apply flex justify-between
+}
+.client_super_head{
+    @apply flex gap-[20px]
+}
+.head_info_two h2{
+    @apply font-rubik font-medium text-textColor text-[18px]
+}
+.head_info_two h3{
+    @apply font-rubik font-normal text-[#4F5665] text-[14px] mt-[5px]
+}
+.client_head_star{
+    @apply flex gap-[10px] justify-center items-center
+}
+.client_head_star p{
+    @apply font-rubik font-normal text-textColor text-[16px]
+}
+.client_icon{
+    @apply text-[#FEA250]
+}
+.client_text{
+    @apply mt-[8px]
+}
+.client_text p{
+    @apply font-rubik font-normal text-[16px] text-textColor
+}
+.chinaG{
+    @apply pb-[10px] lg:h-[100px]
+}
+.koreaB{
+    @apply lg:h-[100px]
+}

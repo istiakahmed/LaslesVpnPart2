@@ -1,0 +1,8 @@
+.customer_review h2{
+    @apply font-rubik font-medium text-[28px] lg:text-[35px] text-textColor w-[full] lg:w-[448px] m-auto text-center mb-[10px] lg:mb-[20px]
+}
+.customer_review p{
+    @apply font-rubik font-normal text-[#4F5665] text-[14px] lg:text-[16px] w-[full] lg:w-[555px] m-auto text-center mb-[20px] lg:mb-[60px]
+}
+
+

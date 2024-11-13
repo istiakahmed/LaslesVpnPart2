@@ -1,0 +1,42 @@
+.Istiak_map{
+    @apply mt-[140px] mb-[50px]
+}
+.Istiak_mapText h2{
+    @apply font-rubik font-medium text-textColor w-[full] lg:w-[384px] text-[28px] lg:text-[35px] m-auto mt-[20px] text-center
+}
+.Istiak_mapText p{
+    @apply font-rubik font-normal text-[#4F5665] w-[full] lg:w-[555px] text-[14px] lg:text-[16px] m-auto text-center mb-[70px] lg:mb-[155px]
+}
+.map_image{
+    @apply flex justify-center items-center relative
+}
+.mapLocation{
+    @apply absolute;
+    animation: popingGps linear infinite 2s;
+}
+@keyframes popingGps{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+.locGpOne{
+    @apply left-[70px] lg:left-[285px] top-[-10px] md:top-[-5px] lg:top-[-2px]
+}
+.locGpTwo{
+    @apply left-[85px] md:left-[150px] lg:left-[400px] top-[3px] md:top-[6px] lg:top-[1px]
+}
+.locGpThree{
+    @apply left-[90px] md:left-[170px]  lg:left-[385px] top-[20px] lg:top-[45px]
+}
+.locGpFour{
+    @apply left-[120px] md:left-[280px]  lg:left-[775px] top-[20px] lg:top-[45px]
+}
+.sponsor{
+    @apply flex-wrap flex justify-center  lg:justify-between items-center 
+}
