@@ -1,0 +1,33 @@
+.Istiak_foot{
+    @apply pb-[100px]
+}
+.grid{
+    @apply lg:grid-cols-2 
+}
+.grid_two{
+    @apply flex justify-between
+}
+.grid_logo_text p{
+    @apply font-rubik font-normal text-[#4F5665] text-[14px] lg:text-[16px] w-[full] lg:w-[340px] mt-[20px]
+}
+.grid_logo_text p span{
+    @apply font-rubik font-medium text-[#4F5665] text-[14px] lg:text-[16px]
+}
+.grid_social{
+    @apply flex gap-[20px] mt-[30px] mb-[30px] text-xl
+}
+.grid_social a{
+    @apply text-red-400 
+}
+.soci_link{
+    @apply w-[33px] h-[33px] rounded-full flex justify-center items-center shadow-[0_3px_10px_rgb(0,0,0,0.2)]
+}
+.foot_txt p{
+    @apply font-rubik font-medium text-[16px] text-[#4F5665]
+}
+.grid_colmn_one ul li{
+    @apply pb-4 font-rubik font-normal text-[#4F5665] text-[14px]
+}
+.grid_colmn_one ul li span{
+    @apply text-textColor pb-[2px] font-medium
+}

@@ -1,6 +1,9 @@
 .client_title{
-    @apply w-[100px] lg:w-[360px] border-[#DDDDDD] border-[1px] p-[30px]
+    @apply w-[full] lg:w-[360px] border-[#DDDDDD] border-[1px] p-[30px]
 
+}
+.clientOne{
+    @apply pb-[10px]
 }
 .client_title:hover{
     @apply border-brandColor
@@ -37,4 +40,28 @@
 }
 .koreaB{
     @apply lg:h-[100px]
+}
+.slick-dots li button{
+    @apply text-[0] w-[15px] h-[15px] rounded-full bg-[#DDE0E4]
+}
+.slick-dots{
+    @apply !flex gap-[15px] mt-[10px]
+}
+.slick-dots .slick-active button{
+    @apply bg-red-600
+}
+.istiakSlider{
+    @apply relative 
+}
+.istiakSlider:hover .slick-arrow{
+    @apply opacity-[1] 
+}
+.slick-arrow{
+    @apply text-3xl absolute bottom-0 z-[999] text-red-400 opacity-0 rounded-full
+}
+.slick-next{
+    @apply right-0 hover:text-white hover:bg-red-400
+}
+.slick-prev{
+    @apply right-[40px] hover:text-white hover:bg-red-400
 }

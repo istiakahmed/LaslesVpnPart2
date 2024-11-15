@@ -1,0 +1,16 @@
+.subscription{
+    @apply w-[full] px-[58px] py-[70px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] mt-[65px] mb-[30px]
+}
+.subs_title{
+    @apply flex justify-between items-center flex-wrap
+}
+.subs_text h2{
+    @apply w-[full] lg:w-[372px] font-rubik font-medium text-[28px] lg:text-[35px] text-textColor mb-[20px] 
+}
+.subs_text p{
+    @apply w-[full] lg:w-[410px] font-rubik font-normal text-[#4F5665] text-[14px] lg:text-[16px] pb-[15px] lg:pb-0
+}
+.subs_button a{
+    @apply py-[5px] lg:py-[17px] px-[10px] lg:px-[65px] shadow-[1px_24px_30px_-15px_#F53838] rounded-[10px] bg-[#F53838] text-white font-rubik font-bold
+
+}

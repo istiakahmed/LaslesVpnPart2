@@ -7,6 +7,8 @@ import LasMap from '../Components/LasMap/LasMap'
 import Customer from '../Components/Customer/Customer'
 import Slider from 'react-slick'
 import ClientSlide from '../Components/CustomerSlide/ClientSlide'
+import Subscription from '../Components/Subscription/Subscription'
+import Foot from '../Components/Foot/Foot'
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
     <LasMap />
     <Customer />
     <ClientSlide />
+    <Subscription />
+    <Foot />
     
     </>
   )
